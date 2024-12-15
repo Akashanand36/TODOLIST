@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>Task Manager</title>
+</head>
+
+<body>
+
+    <!-- Task Manager Page -->
+    <section class="taskmanager">
+        <div class="container">
+            <h1>Task Manager</h1>
+
+            <!-- Task Input -->
+            <div>
+                <input type="text" id="taskInput" placeholder="Add a new task">
+                <button onclick="addTask()">Add Task</button>
+            </div>
+
+            <!-- Task List -->
+            <ul id="taskList">
+                <!-- Task items will be added dynamically using JavaScript -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
